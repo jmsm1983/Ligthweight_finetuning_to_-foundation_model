@@ -50,7 +50,7 @@ Models
 
 2. Fine-Tuned Model: The pre-trained model is fine-tuned on the training dataset for sentiment analysis. Fine-tuning adjusts all the model parameters to better fit the specific task.
 
-3. PEFT Models (v2 & v2): Parameter-efficient fine-tuning is performed on the pre-trained model, adjusting only a small subset of parameters while keeping the rest of the model fixed. This approach reduces computational resource requirements and prevents overfitting.
+3. PEFT Models (v1 & v2): Parameter-efficient fine-tuning is performed on the pre-trained model, adjusting only a small subset of parameters while keeping the rest of the model fixed. This approach reduces computational resource requirements and prevents overfitting.
 
 Evaluation
 All three models are evaluated using the test dataset. 
